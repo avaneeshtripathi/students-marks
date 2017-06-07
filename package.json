@@ -29,6 +29,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --content-base src --inline --hot",
+    "build": "webpack --progress --profile --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

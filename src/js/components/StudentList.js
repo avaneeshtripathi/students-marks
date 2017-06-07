@@ -31,6 +31,7 @@ export default class StudentList extends React.Component {
         this.setState({
             studentsList: filteredStudentsList
         })
+        this.resetSelectedStudent();
     }
 
     resetSelectedStudent () {

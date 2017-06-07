@@ -153,7 +153,7 @@
 			"class": "Class IV",
 			"students": [
 				{
-					"name": "Student 1",
+					"name": "Adam",
 					"dateOfBirth": 1496773800091,
 					"gender": "Male",
 					"guardian": "Guardian 1",
@@ -164,7 +164,7 @@
 					}
 				},
 				{
-					"name": "Student 2",
+					"name": "Adams",
 					"dateOfBirth": 1469773800091,
 					"gender": "Male",
 					"guardian": "Guardian 2",
@@ -175,7 +175,7 @@
 					}
 				},
 				{
-					"name": "Student 3",
+					"name": "Chiva",
 					"dateOfBirth": 1486773800091,
 					"gender": "Female",
 					"guardian": "Guardian 3",
@@ -186,7 +186,18 @@
 					}
 				},
 				{
-					"name": "Student 4",
+					"name": "Johnny",
+					"dateOfBirth": 1486773800091,
+					"gender": "Male",
+					"guardian": "Guardian 4",
+					"marks": {
+						"maths": 90,
+						"science": 75,
+						"english": 60
+					}
+				},
+				{
+					"name": "Jenny",
 					"dateOfBirth": 1486773800091,
 					"gender": "Male",
 					"guardian": "Guardian 4",
