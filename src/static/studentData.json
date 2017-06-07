@@ -1,0 +1,202 @@
+{
+	"name": "ABC School",
+	"description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+	"classList": [
+		{
+			"class": "Class I",
+			"students": [
+				{
+					"name": "Student 1",
+					"dateOfBirth": 1496773800091,
+					"gender": "Male",
+					"guardian": "Guardian 1",
+					"marks": {
+						"maths": 80,
+						"science": 40,
+						"english": 70
+					}
+				},
+				{
+					"name": "Student 2",
+					"dateOfBirth": 1469773800091,
+					"gender": "Male",
+					"guardian": "Guardian 2",
+					"marks": {
+						"maths": 80,
+						"science": 20,
+						"english": 70
+					}
+				},
+				{
+					"name": "Student 3",
+					"dateOfBirth": 1486773800091,
+					"gender": "Female",
+					"guardian": "Guardian 3",
+					"marks": {
+						"maths": 90,
+						"science": 65,
+						"english": 75
+					}
+				},
+				{
+					"name": "Student 4",
+					"dateOfBirth": 1495773800091,
+					"gender": "Female",
+					"guardian": "Guardian 4",
+					"marks": {
+						"maths": 10,
+						"science": 35,
+						"english": 25
+					}
+				},
+				{
+					"name": "Student 5",
+					"dateOfBirth": 1488953800091,
+					"gender": "Male",
+					"guardian": "Guardian 5",
+					"marks": {
+						"maths": 93,
+						"science": 98,
+						"english": 95
+					}
+				},
+				{
+					"name": "Student 6",
+					"dateOfBirth": 1458683800091,
+					"gender": "Female",
+					"guardian": "Guardian 6",
+					"marks": {
+						"maths": 90,
+						"science": 65,
+						"english": 75
+					}
+				},
+				{
+					"name": "Student 7",
+					"dateOfBirth": 1856773800091,
+					"gender": "Male",
+					"guardian": "Guardian 7",
+					"marks": {
+						"maths": 10,
+						"science": 75,
+						"english": 20
+					}
+				}
+			]
+		},
+		{
+			"class": "Class II",
+			"students": [
+				{
+					"name": "Student 1",
+					"dateOfBirth": 1496773800091,
+					"gender": "Female",
+					"guardian": "Guardian 1",
+					"marks": {
+						"maths": 80,
+						"science": 75,
+						"english": 70
+					}
+				},
+				{
+					"name": "Student 2",
+					"dateOfBirth": 1469773800091,
+					"gender": "Male",
+					"guardian": "Guardian 2",
+					"marks": {
+						"maths": 70,
+						"science": 85,
+						"english": 70
+					}
+				},
+				{
+					"name": "Student 3",
+					"dateOfBirth": 1486773800091,
+					"gender": "Female",
+					"guardian": "Guardian 3",
+					"marks": {
+						"maths": 90,
+						"science": 75,
+						"english": 60
+					}
+				}
+			]
+		},
+		{
+			"class": "Class III",
+			"students": [
+				{
+					"name": "Student 1",
+					"dateOfBirth": 1496773800091,
+					"gender": "Male",
+					"guardian": "Guardian 1",
+					"marks": {
+						"maths": 80,
+						"science": 75,
+						"english": 70
+					}
+				},
+				{
+					"name": "Student 2",
+					"dateOfBirth": 1469773800091,
+					"gender": "Female",
+					"guardian": "Guardian 2",
+					"marks": {
+						"maths": 70,
+						"science": 85,
+						"english": 70
+					}
+				}
+			]
+		},
+		{
+			"class": "Class IV",
+			"students": [
+				{
+					"name": "Student 1",
+					"dateOfBirth": 1496773800091,
+					"gender": "Male",
+					"guardian": "Guardian 1",
+					"marks": {
+						"maths": 80,
+						"science": 75,
+						"english": 70
+					}
+				},
+				{
+					"name": "Student 2",
+					"dateOfBirth": 1469773800091,
+					"gender": "Male",
+					"guardian": "Guardian 2",
+					"marks": {
+						"maths": 70,
+						"science": 85,
+						"english": 70
+					}
+				},
+				{
+					"name": "Student 3",
+					"dateOfBirth": 1486773800091,
+					"gender": "Female",
+					"guardian": "Guardian 3",
+					"marks": {
+						"maths": 90,
+						"science": 75,
+						"english": 60
+					}
+				},
+				{
+					"name": "Student 4",
+					"dateOfBirth": 1486773800091,
+					"gender": "Male",
+					"guardian": "Guardian 4",
+					"marks": {
+						"maths": 90,
+						"science": 75,
+						"english": 60
+					}
+				}
+			]
+		}
+	]
+}

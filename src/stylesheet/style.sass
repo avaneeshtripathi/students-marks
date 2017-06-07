@@ -1,0 +1,103 @@
+// color palettes
+$white: #fff
+$black: #000
+$headerBlue: #4a669e
+$lightGreyShadeDDD: #ddd
+$sidebarBlue: #83bcf7
+$lightGreenShadeDC: #c1e4dc
+
+// mixins
+@mixin fontProperties ($size, $lineHeight, $color)
+  font-size: $size
+  line-height: $lineHeight
+  color: $color
+
+// styling
+header
+  background: $headerBlue
+  +fontProperties(40px, 80px, $white)
+
+.sidebarListing,
+.studentsList
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+.sidebarListing
+  li
+    margin-bottom: 10px
+
+.studentsList
+  li
+    padding: 10px
+    margin-bottom: 2px
+    background: $lightGreenShadeDC
+    &:nth-child(odd)
+      background: $lightGreyShadeDDD
+    &.active
+      background: $headerBlue
+      color: $white
+
+.sidebarListing
+  border: 1px solid $headerBlue
+  padding: 60px 20px
+  margin-bottom: 40px
+  background: $sidebarBlue
+  min-height: 672px
+
+.detailsHeading
+  margin: 0 0 2px
+  background: $headerBlue
+  +fontProperties(30px, 36px, $white)
+  font-weight: bold
+  padding: 8px 0
+
+.searchInputWrapper
+  padding: 10px
+  background: $headerBlue
+  margin-bottom: 2px
+  input
+    width: 100%
+    border: none
+    outline: none
+    border-bottom: 1px solid $white
+    padding: 6px 12px
+    +fontProperties(14px, 20px, $black)
+    background: transparent
+    color: $white
+
+.studentDetailsWrapper
+  border: 1px solid $lightGreyShadeDDD
+  padding: 40px 20px
+  margin-bottom: 40px
+  min-height: 672px
+
+.descriptionBlock
+  color: $black
+  max-width: 400px
+  margin: 0 auto
+  padding: 10px
+  background: $lightGreyShadeDDD
+  border: 1px solid $black
+
+.studentDetails
+  border: 1px solid $lightGreyShadeDDD
+  margin-bottom: 20px
+  padding: 20px
+  background: $lightGreenShadeDC
+  +fontProperties(16px, 24px, $black)
+  span
+    min-width: 130px
+    display: inline-block
+
+.cursorPointer
+  cursor: pointer
+
+// media query for responsive
+@media screen and (max-width: 991px)
+  .sidebarListing,
+  .studentDetailsWrapper
+    min-height: 0
+
+  .studentListWrapper
+    margin-bottom: 40px
