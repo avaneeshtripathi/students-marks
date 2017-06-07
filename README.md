@@ -1,5 +1,7 @@
 ## Students Marks Details
 
+Live: https://react-student-details.herokuapp.com/
+
 ## Instructions to run
 1. Clone the repository
 2. Navigate to root folder
